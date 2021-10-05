@@ -162,6 +162,18 @@
         </div>
     </div>
 
+    <section id="comments" class="comments">
+        <style>
+        .utterances{max-width: 100%;}
+        </style>
+        <script src="https://utteranc.es/client.js"
+                repo="<%= theme.utterance.repo %>"
+                issue-term="<%= theme.utterance.issue_term %>"
+                theme="<%= theme.utterance.theme %>"
+                crossorigin="anonymous"
+                async>
+        </script>
+    </section>
     <% if (theme.gitalk && theme.gitalk.enable) { %>
         <%- partial('_partial/gitalk') %>
     <% } %>

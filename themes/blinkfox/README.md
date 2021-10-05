@@ -587,7 +587,7 @@ Search `.bg-color` to modify background color in `/source/css/matery.css` in the
 ```css
 /* The overall background color, including navigation, mobile navigation, footer, tab, etc.. */
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #4cbf30 0%, #6DD5FA 100%);
 }
 
 @-webkit-keyframes rainbow {

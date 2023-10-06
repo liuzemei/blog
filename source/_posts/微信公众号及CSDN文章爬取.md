@@ -20,11 +20,12 @@ tags:
 
 # 开始
 ## 一、 微信公众号文章的爬取
-[https://zhuanlan.zhihu.com/p/77438394](https://zhuanlan.zhihu.com/p/77438394)
-
-关于 python 的细节可以直接查看上述的链接。我这里是用的 nodejs，相当于稍微翻译了一下。
 
 ### 1. 从抓包工具获取 `__biz` `uin` 和 `key`
+
+
+在PC端登陆微信，打开Fiddler，按F12是开启/停止抓包，进入公众号历史文章页面，看到Fiddler出现了很多请求。
+找到 GET https://mp.weixin.qq.com/mp/profile_ext 这个请求，然后，找到这三个参数。
 
 ### 2. 构建获取的脚本
 ```js
